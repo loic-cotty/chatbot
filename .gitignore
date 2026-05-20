@@ -1,0 +1,30 @@
+# =====================
+# Symfony
+# =====================
+/symfony/var/
+/symfony/vendor/
+/symfony/.env.local
+
+# =====================
+# Node / assets
+# =====================
+/symfony/node_modules/
+/symfony/public/build/
+/symfony/public/assets/
+
+# =====================
+# Docker
+# =====================
+/docker/.env
+*.log
+
+# =====================
+# IDE
+# =====================
+.idea/
+.vscode/
+
+# =====================
+# OS
+# =====================
+.DS_Store
